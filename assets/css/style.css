@@ -69,3 +69,51 @@ a.hover {
   font-family: 'Playfair Display', serif;
   font-size: 20px;
 }
+#contactInfo{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+#carouselContainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#contactInfo{
+  margin: 100px 0;
+  font-family: 'Playfair Display', serif;
+}
+#subheading {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+.fa-github {
+  font-size: 3rem;
+  color:black;
+}
+.fa-linkedin {
+  font-size: 3rem;
+}
+.footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  padding: 20px 0;
+  border-top: 2px solid rgb(180, 180, 180);
+  font-family: 'Playfair Display', serif;
+}
+@media(max-width:768px){
+  #nav-text {
+      color: black;
+  }
+}
+@media(max-width:576px){
+  #jumboName {
+      font-size: 3.3rem;
+  }
+  .jumbotron {
+      padding: 4rem;
+  }
+  #nav-text {
+      color: black;
+  } 
+}
